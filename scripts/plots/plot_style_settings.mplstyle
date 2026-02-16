@@ -1,0 +1,36 @@
+figure.dpi: 600
+
+font.sans-serif: Arial
+font.size: 7
+
+axes.titlesize: 7
+axes.labelsize: 7
+axes.titlepad: 2
+axes.linewidth: 0.4
+axes.edgecolor: black
+
+grid.linewidth: 0.05
+grid.alpha: 0.8
+
+xtick.direction: out
+ytick.direction: out
+xtick.major.size: 1.5
+ytick.major.size: 1.5
+xtick.major.width: 0.3
+ytick.major.width: 0.3
+xtick.minor.size: 0.7
+ytick.minor.size: 0.7
+xtick.minor.width: 0.2
+ytick.minor.width: 0.2
+xtick.labelsize: 7
+ytick.labelsize: 7
+
+lines.linewidth: 0.2
+
+legend.frameon: False
+legend.fontsize: 7
+
+boxplot.whiskerprops.linewidth: 0.2
+boxplot.capprops.linewidth: 0.2
+boxplot.boxprops.linewidth: 0.2
+boxplot.medianprops.linewidth: 0.3
