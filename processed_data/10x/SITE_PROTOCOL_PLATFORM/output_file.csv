@@ -1,0 +1,7 @@
+ID,Position,A count,C count,G count,T count,gap count,read_depth,read_depth_no_gaps,major_allele,percentage_with_gaps,percentage_without_gaps,minor_allele1,minor_allele1_freq,minor_allele1_freq_no_gaps,minor_allele2,minor_allele2_freq,minor_allele2_freq_no_gaps,minor_allele3,minor_allele3_freq,minor_allele3_freq_no_gaps,major_amino_acid,minor_amino_acid1,minor_amino_acid2,minor_amino_acid3
+SAMPLE_ID1,51.0,0,0,24,836,0,860,860,T,97.2%,97.2%,G,2.8%,2.8%,,,,,,,,,,
+SAMPLE_ID1,200.0,0,0,14,671,0,685,685,T,98.0%,98.0%,G,2.0%,2.0%,,,,,,,,,,
+SAMPLE_ID1,2949.0,2,0,45,1267,0,1314,1314,T,96.4%,96.4%,G,3.4%,3.4%,,,,,,,G,G,,
+SAMPLE_ID2,51.0,5,2,133,4156,0,4296,4296,T,96.7%,96.7%,G,3.1%,3.1%,,,,,,,,,,
+SAMPLE_ID2,1138.0,18975,26,1237,12,0,20250,20250,A,93.7%,93.7%,G,6.1%,6.1%,,,,,,,M,V,,
+SAMPLE_ID2,2949.0,38,8,714,34243,0,35003,35003,T,97.8%,97.8%,G,2.0%,2.0%,,,,,,,G,G,,
