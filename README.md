@@ -1,9 +1,7 @@
 # Code for "Identification and Masking of Artefactual and Misleading Within-Host Variants in Deep-Sequencing SARS-CoV-2 Data"
------------------------------------------------------------------------------------------------------------------------------
 _Klara M Anker, Matthew Hall, Rosario Evans Pena, Steven A. Kemp, Joseph Clarke, Lele Zhao, David Bonsall, Nicholas Grayson, Matthew Bashton, The COVID-19 Genomics UK (COG-UK) Consortium, Ann Sarah Walker, Tanya Golubchik, Katrina Lythgoe_
 ___
 ## Overview
------------
 This repository contains the analysis scripts and example data files used for the study _"Identification and Masking of Artefactual and Misleading Within-Host Variants in Deep-Sequencing SARS-CoV-2 Data"_
 
 The study analysed data from the ONS COVID-19 Infection Survey (ONS-CIS) and all sequences are publicly available via the COG-UK project on the ENA, https://www.ebi.ac.uk/ena/browser/view/PRJEB37886 
@@ -11,7 +9,6 @@ The study analysed data from the ONS COVID-19 Infection Survey (ONS-CIS) and all
 This repository includes synthetic example data illustrating the folder structure and file formats required to run the analysis pipeline. No real sequencing data are included.
 
 ## Repository structure
------------------------
 The repository is organised to reflect the analytical workflow used in the study.
 
 - `scripts/`  
