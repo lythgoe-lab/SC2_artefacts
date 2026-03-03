@@ -1,0 +1,39 @@
+# Core Data Processing
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Bioinformatics
+biopython
+bcbio-gff
+
+# Statistical Analysis
+scipy
+statsmodels
+
+# Parallel/Distributed Computing
+dask[dataframe]
+
+# Data Format Support
+pyarrow
+
+# Python Standard Library (included, listed for reference)
+# - os
+# - re
+# - json
+# - csv
+# - glob
+# - random
+# - sys
+# - site
+# - ast
+# - math
+# - itertools
+# - collections
+# - dataclasses
+# - typing
+# - datetime
+# - functools

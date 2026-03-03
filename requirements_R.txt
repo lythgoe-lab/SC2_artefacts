@@ -1,0 +1,8 @@
+# R Package Dependencies
+# Install using: install.packages("package_name")
+
+tidyverse           # Data manipulation and visualization
+ggplot2            # Grammar of graphics plotting
+UpSetR              # UpSet plots for set visualization
+Cairo               # Cairo graphics device for high-quality output
+ggpubr              # Publication-ready plots with ggplot2
