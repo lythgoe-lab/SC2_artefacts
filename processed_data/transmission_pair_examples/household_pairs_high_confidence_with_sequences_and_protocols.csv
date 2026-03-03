@@ -1,0 +1,2 @@
+hh,event_id,visit_t,visit_t1,person_id1,collection_date1,person_id2,collection_date2,days_between,category,pair_n,pair_id,index_in_pair,sample1,sample2,protocol1,protocol2
+hh1,1,1,2,ID_1,2020-10-06,ID_2,2020-10-13,7,high_confidence,1,hh1_1_1,True,SAMPLE_ID1,SAMPLE_ID2,OXON_VeSeq_ILLUMINA,OXON_VeSeq_ILLUMINA

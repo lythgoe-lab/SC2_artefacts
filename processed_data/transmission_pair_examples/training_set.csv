@@ -1,0 +1,3 @@
+event.id,sample.source,pid.source,sample.recipient,pid.recipient,bfname.source,folder.source,bfname.recipient,folder.recipient,protocol.source,protocol.recipient,site.source,site.recipient,method.source,method.recipient,grouped.site.source,grouped.site.recipient,mask.source,mask.recipient
+1,SAMPLE_ID1,PERSON_ID1,SAMPLE_ID2,PERSON_ID_2,BASEFREQ_FILENAME1,OXON_VeSeq_ILLUMINA,BASEFREQ_FILENAME_2,OXON_VeSeq_ILLUMINA,OXON_VeSeq,OXON_VeSeq,OXON,OXON,VeSeq,VeSeq,OXON,OXON,OXON_VeSeq,OXON_VeSeq
+2,SAMPLE_ID3,PERSON_ID3,SAMPLE_ID4,PERSON_ID_4,BASEFREQ_FILENAME3,OXON_VeSeq_ILLUMINA,BASEFREQ_FILENAME4,OXON_VeSeq_ILLUMINA,OXON_VeSeq,OXON_VeSeq,OXON,OXON,VeSeq,VeSeq,OXON,OXON,OXON_VeSeq,OXON_VeSeq

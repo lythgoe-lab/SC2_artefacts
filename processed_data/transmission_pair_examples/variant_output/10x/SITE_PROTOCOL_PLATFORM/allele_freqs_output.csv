@@ -1,0 +1,5 @@
+sample,pos,read_depth_no_gaps,gap_count,maj_allele,maj_allele_freq_no_gaps,ambigous_major,min_allele,min_allele_freq_no_gaps
+SAMPLE_ID1,858,135,0,T,99.3%,False,G,0.7%
+SAMPLE_ID1,3217,171,0,T,50.0%,True,A,50.0%
+SAMPLE_ID2,858,5710,0,T,98.5%,False,G,1.4%
+SAMPLE_ID2,6717,1128,0,T,99.9%,False,A,0.1%

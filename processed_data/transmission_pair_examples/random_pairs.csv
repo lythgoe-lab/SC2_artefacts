@@ -1,0 +1,2 @@
+hh1,person_id1,collection_date1,sample1,protocol1,hh2,person_id2,collection_date2,sample2,protocol2,days_between,category
+HH_1,PERSON_ID1,2022-03-26,SAMPLE_ID1,QEUH_ARTIC_4.1_ILLUMINA,HH_2,PERSON_ID2,2022-04-05,SAMPLE_ID2,QEUH_ARTIC_4.1_ILLUMINA,10,random

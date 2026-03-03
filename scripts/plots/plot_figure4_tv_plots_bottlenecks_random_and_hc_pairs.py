@@ -9,23 +9,23 @@ from dataclasses import dataclass
 from typing import Sequence
 
 
-base_dir = "../"
+base_dir = "../../"
 high_conf_pairs_path = os.path.join(
-    base_dir, "processed_data",
-    "high_conf_pairs_all_variant_types_and_freqs_from_parquet.csv"
+    base_dir, "processed_data", "transmission_pair_examples",
+    "high_confidence_pairs_all_variant_types_and_freqs.csv"
 )
 random_pairs_path = os.path.join(
-    base_dir, "processed_data",
-    "random_pairs_all_variant_types_and_freqs_from_parquet_date_restricted.csv"
+    base_dir, "processed_data", "transmission_pair_examples",
+    "random_pairs_all_variant_types_and_freqs.csv"
 )
 maf_table_path = os.path.join(
     base_dir, "processed_data", "10x", "final_maf_thresholds.csv"
 )
 training_set_path = os.path.join(
-    base_dir, "processed_data", "training_set_2025_v3.csv"
+    base_dir, "processed_data", "transmission_pair_examples", "training_set.csv"
 )
 bottleneck_examples_path = os.path.join(
-    base_dir, "processed_data", "10x", "possible_examples_alt.csv"
+    base_dir, "processed_data", "transmission_pair_examples", "possible_examples_alt.csv"
 )
 
 figures_dir = os.path.join(

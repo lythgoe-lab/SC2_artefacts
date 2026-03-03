@@ -1,0 +1,3 @@
+pair,protocol.source,protocol.recipient,median_0,median_1,mean_0,mean_1,hpd.lower_0,hpd.lower_1,hpd.upper_0,hpd.upper_1
+7,OXON_VeSeq,OXON_VeSeq,1,1,1.6935483870967738,1.8185483870967742,1,1,4,4
+8,OXON_VeSeq,OXON_VeSeq,4,1,4.424395161290322,1.9294354838709675,2,1,8,5
