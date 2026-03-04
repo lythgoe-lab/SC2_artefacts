@@ -1,7 +1,6 @@
 library(tidyverse)
 library(UpSetR)
 library(Cairo)
-library(ggpubr)
 
 
 setwd("PATH/TO/WORKING/DIRECTORY")
