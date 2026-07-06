@@ -680,7 +680,7 @@ fig.legend(
 fig.text(0.03, 0.30, 'c', fontweight='bold', fontsize=8)
 
 # Save figure
-plot_filename = 'figureS7_iSNV_primer_dists.pdf'
+plot_filename = 'figureS9_iSNV_primer_dists.pdf'
 plot_path = os.path.join(figures_dir, "supplemental", plot_filename)
 plt.savefig(plot_path, format='pdf', bbox_inches='tight')
 plt.close()

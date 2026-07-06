@@ -277,7 +277,7 @@ ax_a.grid(True, linestyle="--", linewidth=0.2, alpha=0.5)
 leg_a = ax_a.legend(
     handles=[
         Line2D([0],[0], color="lightsteelblue", lw=4, label="Collection"),
-        Line2D([0],[0], color="steelblue", lw=4, label="Sequencing"),
+        Line2D([0],[0], color="steelblue", lw=4, label="Sequence\nsubmission"),
     ],
     loc="upper left", bbox_to_anchor=(1.01, 0.95), borderaxespad=0.
 )

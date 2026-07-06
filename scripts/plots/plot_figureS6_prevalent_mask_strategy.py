@@ -343,7 +343,7 @@ fig.text(0.06, 0.91, 'a', fontweight='bold', fontsize=8)
 fig.text(0.06, 0.60, 'b', fontweight='bold', fontsize=8)
 fig.text(0.06, 0.38, 'c', fontweight='bold', fontsize=8)
 
-plot_filename = 'figureS5_prevalent_mask_strategy.png'
+plot_filename = 'figureS6_prevalent_mask_strategy.png'
 plot_path = os.path.join(figures_dir, plot_filename)
 plt.savefig(plot_path, format='png', bbox_inches='tight')
 plt.close()

@@ -3,7 +3,7 @@ library(UpSetR)
 library(Cairo)
 
 
-setwd("PATH/TO/WORKING/DIRECTORY")
+setwd("/Users/kanker/VirusEvolution Dropbox/Klara Marie Anker/ONS_sequencing_restricted_access_shared/Klara_stuff/artefactual_sites_paper/")
 
 data <- read_csv("processed_data/10x/combined_masks_etc_for_upset.csv")
 
@@ -57,10 +57,12 @@ create_upset_plot <- function(sites_fig3) {
                 order.by = "freq",                    # order intersections by frequency
                 set_size.show = TRUE,                 # show set size bars
                 set_size.numbers_size = 8,            # size of numbers on set size bars
-                set_size.angles = 30                  # angle of numbers on set size bars
+                set_size.angles = 0,                  # angle of numbers on set size bars
+                set_size.scale_max = 122
   )
   
-  CairoSVG("figures/figure3_Upsetplot.svg", width = 6.8)
+  #CairoSVG("figures/figure3_Upsetplot.svg", width = 6.8)
+  CairoPDF("figures/figure3_Upsetplot.pdf", width = 6.8)
   print(plot)
   dev.off()
   print(plot)
@@ -117,7 +119,7 @@ create_upset_plot_NORT_NORW <- function(sites_NORT_NORW) {
                 set_size.angles = 30
   )
   
-  CairoSVG("figures/supplemental/figureS6_NORT.svg", width = 7.5, height = 4)
+  CairoSVG("figures/supplemental/figureS8_NORT.svg", width = 7.5, height = 4)
   print(plot)
   dev.off()
   print(plot)
@@ -158,7 +160,7 @@ create_upset_plot_PHEC <- function(sites_PHEC) {
                 set_size.angles = 30
   )
   
-  CairoSVG("figures/supplemental/figureS6_PHEC.svg", width = 7.5, height = 3.5)
+  CairoSVG("figures/supplemental/figureS8_PHEC.svg", width = 7.5, height = 3.5)
   print(plot)
   dev.off()
   print(plot)
@@ -200,7 +202,7 @@ create_upset_plot_SANG <- function(sites_SANG) {
                 set_size.angles = 30
   )
   
-  CairoSVG("figures/supplemental/figureS6_SANG.svg", width = 7.5, height = 3.8)
+  CairoSVG("figures/supplemental/figureS8_SANG.svg", width = 7.5, height = 3.8)
   print(plot)
   dev.off()
   print(plot)

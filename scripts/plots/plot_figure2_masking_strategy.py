@@ -271,26 +271,39 @@ for idx, site in enumerate(sites):
             edgecolor = 'none',
             ax=ax,
         )
-        # Add count labels only to selected bars
-        for container, hue_val in zip(ax.containers, [False, True]):
-            if hue_val:
-                texts = ax.bar_label(
-                container,
-                padding=1.5,
-                fontsize=6,
-                label_type="edge"
-            )
-                # Move labels slightly to the right
-                for t in texts:
-                    x, y = t.get_position()
-                    t.set_position((x + 2, y))
         ax.get_legend().remove()
+
 
     ax_bottom.set_ylim(0, 150)
     top_values = df_site['Masked_Count'][df_site['Masked_Count'] > 150]
     top_min = 151
     top_max = ceil((top_values.max() * 1.05) / 100) * 100 if not top_values.empty else 200
     ax_top.set_ylim(top_min, top_max)
+
+    # Add count labels only to selected bars
+    selected_rows = df_site[df_site['Selected']].copy()
+    x_offset = 1.5  # move labels slightly to the right
+
+    for _, selected_row in selected_rows.iterrows():
+        selected_maf = selected_row['MAF']
+        selected_count = selected_row['Masked_Count']
+
+        x_pos = df_site.index[df_site['MAF'] == selected_maf][0]
+
+        if selected_count <= 150:
+            label_ax = ax_bottom
+        else:
+            label_ax = ax_top
+
+        label_ax.text(
+            x_pos + x_offset,
+            selected_count,
+            f"{int(selected_count)}",
+            ha='center',
+            va='bottom',
+            fontsize=6,
+            clip_on=True
+        )
 
      # break styling
     ax_top.spines["bottom"].set_linestyle("--")
