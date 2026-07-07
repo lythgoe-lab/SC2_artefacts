@@ -3,7 +3,7 @@ library(UpSetR)
 library(Cairo)
 
 
-setwd("/Users/kanker/VirusEvolution Dropbox/Klara Marie Anker/ONS_sequencing_restricted_access_shared/Klara_stuff/artefactual_sites_paper/")
+setwd("PATH/TO/BASE/DIRECTORY")
 
 data <- read_csv("processed_data/10x/combined_masks_etc_for_upset.csv")
 
