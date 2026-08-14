@@ -7,7 +7,7 @@ library(svglite)
 
 # --- Configuration ---
 data_dir <- "/processed_data/S10_covspectrum_analysis/"
-sample_count_by_site <- read_csv("/processed_data/S10_covspectrum_variant_frequencies/weekly_sample_count_per_site.csv")
+sample_count_by_site <- read_csv("/processed_data/S7_temporal_analysis/dummy_weekly_sample_count_per_site.csv")
 
 custom_colors <- c("#FFA69E", "#AA4465", "#721121", "#BB4430", "#995FA3", "#9A98B5", 
                    "#885053", "#777DA7", "#9999C3", "#596F62", "#632A50", "#227C9D", 
