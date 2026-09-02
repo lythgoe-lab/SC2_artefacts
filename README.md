@@ -1,5 +1,5 @@
 # Code for the paper: Identification and Masking of Artifactual and Misleading Within-Host Variants in Deep-Sequencing SARS-CoV-2 Data
-_Klara M Anker, Rosario Evans Pena, Steven A. Kemp, Joseph Clarke, Lele Zhao, David Bonsall, Nicholas Grayson, Matthew Bashton, The COVID-19 Genomics UK (COG-UK) Consortium, Ann Sarah Walker, Tanya Golubchik, Matthew Hall, Katrina Lythgoe_, _Molecular Biology and Evolution_, Volume 43, Issue 9, September 2026, msag209, https://doi.org/10.1093/molbev/msag209
+Klara M Anker, Rosario Evans Pena, Steven A. Kemp, Joseph Clarke, Lele Zhao, David Bonsall, Nicholas Grayson, Matthew Bashton, The COVID-19 Genomics UK (COG-UK) Consortium, Ann Sarah Walker, Tanya Golubchik, Matthew Hall, Katrina Lythgoe, _Molecular Biology and Evolution_, Volume 43, Issue 9, September 2026, msag209, https://doi.org/10.1093/molbev/msag209
 ___
 ## Overview
 This repository contains the analysis scripts and example data files used for the study _"Identification and Masking of Artefactual and Misleading Within-Host Variants in Deep-Sequencing SARS-CoV-2 Data"_
