@@ -16,7 +16,7 @@ The repository is organised to reflect the analytical workflow used in the study
   Core scripts are numbered to indicate their order within the pipeline.
 
   Within `scripts/`:
-  - `figure4_transmission_pair_examples/` contains scripts used to generate the example transmission pair analyses shown in Figure 4.
+  - `figure4_transmission_pair_examples/`, `data_processing_figureS7/`, and `data_processing_figureS10/` contain scripts used to generate the specific analysis and data for figure 4, supplementary figure 7 and supplementary figure 10, respectively.
   - `plots/` contains all figure-generation scripts used in the manuscript.
 
 - `basefreqs_by_site_filtered/`  
